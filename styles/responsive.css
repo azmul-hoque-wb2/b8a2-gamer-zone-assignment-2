@@ -1,0 +1,42 @@
+@media screen and (max-width:768px) {
+
+    header {
+        flex-direction: column;
+        gap: 30px;
+        font-size: 18px;
+    }
+
+    .nav-left {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .nav-right {
+        width: 100%;
+    }
+
+    .nav-right>ul {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width:576px) {
+    header {
+        flex-direction: column;
+        font-size: 18px;
+    }
+
+    .nav-left {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .nav-right {
+        width: 100%;
+    }
+
+    .nav-right>ul {
+        flex-direction: column;
+    }
+
+}
