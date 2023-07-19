@@ -8,6 +8,12 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+main {
+    width: 100%;
+
+
+}
+
 header {
     width: 1200px;
     margin: 10px auto;
@@ -104,13 +110,11 @@ li a {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    border: 2px solid black;
 }
 
 .banner-left {
     width: 50%;
     text-align: left;
-    border: 2px solid green;
 }
 
 
@@ -173,7 +177,6 @@ li a {
 .banner-right {
     width: 50%;
 
-    border: 2px solid blue;
 }
 
 .banner-img {
@@ -199,13 +202,11 @@ li a {
     align-items: center;
     gap: 20px;
 
-    border: 2px solid red;
 }
 
 .gamer-container-laft {
     width: 50%;
 
-    border: 2px solid green;
 }
 
 .gamer-img {
@@ -219,7 +220,6 @@ li a {
     align-items: flex-end;
     gap: 20px;
     text-align: end;
-    border: 2px solid blue;
 }
 
 .know-more-btn {
@@ -281,7 +281,6 @@ button {
 .online-game-top {
     /* width: 100%; */
     text-align: center;
-    border: 2px solid lightcoral;
 }
 
 .online-game-top h3 {
@@ -294,7 +293,6 @@ button {
     width: 90%;
     display: flex;
     justify-content: space-evenly;
-    border: 2px solid lightseagreen;
     gap: 20px;
     margin: 0 auto;
 }
@@ -304,19 +302,17 @@ button {
 }
 
 .box-img {
-    border: 2px solid gold;
     width: 280px;
     /* min-height: 350px; */
 }
 
-.div-inside {
+.div-inside{
     position: absolute;
     top: 0;
     left: 0;
-    bottom: 0;
+    
     width: 280px;
     border-radius: 16px;
-    border: 2px solid #1877f2;
 
     display: flex;
     flex-direction: column;
@@ -324,11 +320,14 @@ button {
     align-items: center;
     gap: 20px;
     opacity: 0;
-}
 
-.div-inside:hover {
+}
+.box-img:hover{
     opacity: 1;
     background: rgba(0, 0, 0, 0.432);
+}
+.div-inside:hover {
+   
 
 }
 
@@ -346,24 +345,29 @@ button {
 .div-inside-alignment i {
 
     color: white;
-    border: 2px solid lightgreen;
+}
+
+.box div:last-child {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px auto;
 }
 
 /* online games ends here  */
 .play-instantly-section {}
 
 .play-instantly-conatainer {
-   width: 1200px;
-   margin: 40px auto 20px;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   gap: 20px;
+    width: 1200px;
+    margin: 40px auto 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
 
 .play-instantly-left {
     width: 40%;
-    border: 2px solid red;
     text-align: right;
     display: flex;
     flex-direction: column;
@@ -383,36 +387,38 @@ button {
 .play-instantly-right {
     width: 40%;
     text-align: right;
-    border: 2px solid green;
 
     position: relative;
 }
 
 .play-instantly-right img {
     width: 100%;
-}   
+}
 
 .play-instant-img {
     width: 500px;
-    border: 2px solid lightcoral;
 
 }
-.play-instantly-right .child-img{
+
+.play-instantly-right .child-img {
     width: 200px;
     position: absolute;
     bottom: -35px;
     left: -60px;
 }
+
 /* play instantly ends here  */
-.type-of-games-section{}
-.type-of-game-container{
+.type-of-games-section {}
+
+.type-of-game-container {
     width: 1200px;
     /* min-height: 30vh; */
     margin: 80px auto 20px;
-    
+
 }
-.type-of-games{
-    
+
+.type-of-games {
+
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -420,7 +426,7 @@ button {
     align-self: center;
 }
 
-.type{
+.type {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -429,8 +435,85 @@ button {
     padding: 10px;
     border-radius: 40px;
 }
-.type:hover{
-    border: 2px solid #ff42a5;
+
+.type:hover {
     border-radius: 40px;
     color: #ff42a5;
+}
+
+
+
+/* types of game ends here  */
+.footer-section {
+    background: #0B0223;
+    color: white;
+    min-height: 50vh;
+}
+
+.footer-container {
+    width: 1200px;
+    /* width: 100%; */
+    margin: 40px auto 20px;
+
+}
+
+.nav-left-in-footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.nav-left-in-footer img {
+    /* display: block; */
+    /* width: 100%; */
+
+}
+
+.nav-left-in-footer h3 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.nav-left-in-footer-img {
+    /* width: 86px;
+    height: 40px; */
+}
+
+.services {
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    font-size: 18px;
+}
+
+.service {
+    text-align: center;
+}
+
+.social-media-section {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.about-website-section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    margin: 30px auto;
+}
+
+.about-website {
+    text-align: center;
+}
+
+.copy-right-section {
+    margin: 20px auto;
+    text-align: center;
 }

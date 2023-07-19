@@ -33,8 +33,6 @@
     .online-game-bottom {
        flex-wrap: wrap;
         gap: 20px;
-        
-        border: 2px solid lightseagreen;
     }
     .box-img{
         width: 100%;
@@ -50,7 +48,6 @@
      .play-instantly-left {
         width: 90%;
         text-align: center;
-        border: 2px solid red;
     }
      /* play instantly ends here  */
      .type-of-games{
@@ -59,6 +56,9 @@
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(4, 1fr);
     }
+    /* types of games ends here  */
+    
+
 
 }
 
@@ -87,7 +87,6 @@
     .banner-left {
         width: 80%;
         margin: 20px auto 0px;
-        border: 2px solid green;
         text-align: center;
     }
     .btn-div{
@@ -96,7 +95,6 @@
     .banner-right {
         width: 80%;
         object-fit: cover;
-        border: 2px solid blue;
     }
     /* banner responsive ends here  */
 
@@ -106,7 +104,6 @@
     .gamer-container-laft {
         width: 80%;
     
-        border: 2px solid green;
     }
     .gamer-container-right {
         width: 80%;
@@ -115,7 +112,6 @@
     /* game section ends here  */
     .online-game-bottom {
          gap: 40px;
-         border: 2px solid lightseagreen;
      }
      .box-img{
         width: 100%;
@@ -130,7 +126,6 @@
      }
      .play-instantly-left {
         width: 80%;
-        border: 2px solid red;
         text-align: center;
     }
     /* play instantly ends here  */
@@ -140,4 +135,6 @@
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 1fr);
     }
+    /* types of games ends here  */
+    
 }
