@@ -171,9 +171,14 @@ li a {
 
 .banner-right {
     width: 50%;
+
     border: 2px solid blue;
 }
 
 .banner-img {
-    width: 600px;
+    min-width: 600px;
 }
+.banner-right img{
+    width: 100%;
+}
+ /* banner style ends here  */
