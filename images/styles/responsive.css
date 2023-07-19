@@ -19,11 +19,9 @@
         justify-content: space-around;
     }
     /* navbar responsive ends here  */
-    
     .banner-container {
-        flex-direction: row;
+        flex-direction: row-reverse;
     }
-    
     /* banner responsive ends here  */
 }
 
@@ -47,7 +45,7 @@
     }
     /* navbar responsive ends here  */
     .banner-container {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .banner-left {
         width: 80%;

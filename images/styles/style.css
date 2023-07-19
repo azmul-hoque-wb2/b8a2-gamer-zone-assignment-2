@@ -93,26 +93,20 @@ li a {
 
 /* navbar style ends here  */
 .banner-section {
-    width: 100%;
+
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 
 .banner-container {
     width: 1200px;
-    margin: 20px auto 20px;
+    margin: 10px auto;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     border: 2px solid black;
 }
-.div-1{
-    width: 100%;
-}
-.div-2{
-    width: 50%;
-    back
-}
+
 .banner-left {
     width: 50%;
     text-align: left;
@@ -182,7 +176,7 @@ li a {
 }
 
 .banner-img {
-    width: 600px;
+    min-width: 600px;
 }
 .banner-right img{
     width: 100%;
