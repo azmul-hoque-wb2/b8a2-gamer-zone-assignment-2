@@ -29,7 +29,20 @@
         flex-direction: row-reverse;
     }
     
-
+    /* game section ends here  */
+    .online-game-bottom {
+       flex-wrap: wrap;
+        gap: 20px;
+        
+        border: 2px solid lightseagreen;
+    }
+    .box-img{
+        width: 100%;
+     }
+    .box {
+        width: 45%;
+    }
+    /* online games ends here  */
 }
 
 @media screen and (max-width:576px) {
@@ -82,5 +95,17 @@
         width: 80%;
         gap: 30px;
     }
+    /* game section ends here  */
+    .online-game-bottom {
+         gap: 40px;
+         border: 2px solid lightseagreen;
+     }
+     .box-img{
+        width: 100%;
+     }
+     .box {
+         width: 90%;
+     }
+     /* online games ends here  */
 
 }
