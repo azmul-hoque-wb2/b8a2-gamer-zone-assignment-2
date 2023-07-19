@@ -18,6 +18,11 @@
     .nav-right>ul {
         justify-content: space-around;
     }
+    /* navbar responsive ends here  */
+    .banner-container {
+        flex-direction: row-reverse;
+    }
+    /* banner responsive ends here  */
 }
 
 @media screen and (max-width:576px) {
@@ -38,5 +43,24 @@
     .nav-right>ul {
         flex-direction: column;
     }
+    /* navbar responsive ends here  */
+    .banner-container {
+        flex-direction: column;
+    }
+    .banner-left {
+        width: 80%;
+        margin: 20px auto 0px;
+        border: 2px solid green;
+        text-align: center;
+    }
+    .btn-div{
+        justify-content: center;
+    }
+    .banner-right {
+        width: 80%;
+        object-fit: cover;
+        border: 2px solid blue;
+    }
+    /* banner responsive ends here  */
 
 }
