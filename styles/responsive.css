@@ -21,10 +21,15 @@
     /* navbar responsive ends here  */
     
     .banner-container {
-        flex-direction: row;
+        flex-direction: row-reverse;
     }
     
     /* banner responsive ends here  */
+    .gamer-container {
+        flex-direction: row-reverse;
+    }
+    
+
 }
 
 @media screen and (max-width:576px) {
@@ -64,5 +69,18 @@
         border: 2px solid blue;
     }
     /* banner responsive ends here  */
+
+    .gamer-container {
+        flex-direction: column;
+    }
+    .gamer-container-laft {
+        width: 80%;
+    
+        border: 2px solid green;
+    }
+    .gamer-container-right {
+        width: 80%;
+        gap: 30px;
+    }
 
 }

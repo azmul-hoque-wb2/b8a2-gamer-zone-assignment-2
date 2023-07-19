@@ -93,26 +93,20 @@ li a {
 
 /* navbar style ends here  */
 .banner-section {
-    width: 100%;
+
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 
 .banner-container {
     width: 1200px;
-    margin: 20px auto 20px;
+    margin: 40px auto 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     border: 2px solid black;
 }
-.div-1{
-    width: 100%;
-}
-.div-2{
-    width: 50%;
-    back
-}
+
 .banner-left {
     width: 50%;
     text-align: left;
@@ -142,17 +136,18 @@ li a {
     margin: 15px 0px;
 }
 
-.banner-left ul li i,.banner-left ul li  p{
+.banner-left ul li i,
+.banner-left ul li p {
     display: inline-block;
 }
 
-.banner-left ul li i{
+.banner-left ul li i {
     width: 20px;
     object-fit: cover;
     margin-right: 10px;
 }
 
-.btn-div{
+.btn-div {
     display: flex;
     justify-content: start;
     align-items: center;
@@ -160,19 +155,19 @@ li a {
     margin: 15px auto;
 }
 
-.btn-div button{
+.btn-div button {
     padding: 20px 40px;
     color: #ffffff;
     border-radius: 48px;
     border: none;
 }
 
-.pink-btn{
+.pink-btn {
     background: #ff42a5;
 }
 
-.blue-btn{
-    background: #4ec5f7 ;
+.blue-btn {
+    background: #4ec5f7;
 }
 
 .banner-right {
@@ -184,7 +179,87 @@ li a {
 .banner-img {
     width: 600px;
 }
-.banner-right img{
+
+.banner-right img {
     width: 100%;
 }
- /* banner style ends here  */
+
+/* banner style ends here  */
+
+.gamer-section {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.gamer-container {
+    width: 1200px;
+    margin: 40px auto 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    border: 2px solid red;
+}
+
+.gamer-container-laft {
+    width: 50%;
+
+    border: 2px solid green;
+}
+
+.gamer-img {
+    width: 600px;
+}
+
+.gamer-container-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+    text-align: end;
+    border: 2px solid blue;
+}
+
+.know-more-btn {
+
+    display: block;
+    padding: 20px 40px;
+    border-radius: 48px;
+    border: none;
+    color: #ffffff;
+    background-color: #F948B2;
+}
+
+button {
+    cursor: pointer;
+}
+
+.gradient-title {
+    font-size: 48px;
+    font-weight: 700;
+
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.discription {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.gamer-container-right p:last-child {
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.gamer-container-right p>span:last-child {
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+}
